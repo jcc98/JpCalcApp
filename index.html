@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Traditional number to 日本式 calculator</title>
+    <link rel="stylesheet" type="text/css" href="styling.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h2 class="top-title">普通式数字から日本式への電卓</h2>
+    <div class="input-container">
+        <input type="number" id="input1" class="input-style tradNumberInput target-input" placeholder="普通式">
+    </div>
+    <div class="numbers">
+
+        <div class="nb" id="nb1">1</div>
+        <div class="nb" id="nb2">2</div>
+        <div class="nb" id="nb3">3</div>
+        <div class="nb" id="nb4">4</div>
+        <div class="nb" id="nb5">5</div>
+        <div class="nb" id="nb6">6</div>
+        <div class="nb" id="nb7">7</div>
+        <div class="nb" id="nb8">8</div>
+        <div class="nb" id="nb9">9</div>
+        <div class="nb" id="nb0">0</div>
+        <div class="nb" id="bcks">⇦</div>
+    </div>
+
+    <div class="input-container">
+        <div><input type="submit" id="submit" class="input-style btn" value="変換"></div>
+        <input type="text" id="input2" class="input-style firstOutput target-input" placeholder="普通式変換">
+        <input type="text" id="input3" class="input-style secondOutput target-input" placeholder="日本式変換">
+
+        <div><button type="submit" id="submitA" class="input-style submit-btn">Copy normal number</button>
+            <button type="submit" id="submitB" class="input-style submit-btn">Copy JP number</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

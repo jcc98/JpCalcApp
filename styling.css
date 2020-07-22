@@ -1,0 +1,116 @@
+* {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+input:focus::-ms-input-placeholder {
+  color: transparent;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ff8177), color-stop(0%, #ff867a), color-stop(21%, #ff8c7f), color-stop(52%, #f99185), color-stop(78%, #cf556c), to(#b12a5b));
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+
+.top-title {
+  color: #f3f3f3;
+  text-shadow: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%) 3px 4px;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bolder;
+  padding: 1rem;
+}
+
+.numbers {
+  color: #000;
+  font-size: 1.5em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[3];
+      grid-template-columns: repeat(3, auto);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  grid-gap: 20px;
+}
+
+.nb {
+  padding: 1rem;
+}
+
+.nb:hover {
+  cursor: pointer;
+  background: -webkit-linear-gradient(#b84d4d, #333);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn {
+  margin: 1.5rem 0rem;
+  cursor: pointer;
+  width: 4.5rem;
+  height: 2.5rem;
+}
+
+.btn:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #ff867a;
+  color: #7e7e7e;
+}
+
+.input-style {
+  text-align: center;
+  padding: 0.6rem 0.2rem;
+  border-radius: 10px;
+  background-color: #fff;
+  border: solid;
+  border-width: 1px;
+}
+
+.input-container {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  color: #f3f3f3;
+  text-shadow: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%) 3px 4px;
+}
+
+.submit-btn {
+  text-align: center;
+  margin-top: 0.65rem;
+  padding: 0.6rem 0.8rem;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #ff867a;
+  color: #7e7e7e;
+}
+/*# sourceMappingURL=styling.css.map */
